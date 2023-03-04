@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalani</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./assets/img/koko1.png">
+</head>
+<body>
+    <header>
+        <nav class="header">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Menú</a>
+                    <div class="dropdown-content">
+                        <a href="./pages/menu.html">Minorista</a><br>
+                        <a href="">Mayorista</a>
+                    </div>
+                </li>
+                <li><img src="./assets/img/koko.png" alt="logo"></li>
+                <li><a href="">Probanos</a></li>
+                <li><a href="">Sobre mi</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Galeria de fotos -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="./assets/img/carrusel-1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="./assets/img/carrusel-2.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="./assets/img/carrusel-3.jpg" style="width:100%">
+            </div>
+            <!-- Flechas para cambiar de imagen -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </main>
+    <footer class="pie">
+        <span><img src="./assets/img/instagram.png" alt="logo de instagram"> @kalani_reposteria </span>
+        <span><img src="./assets/img/whatsapp.png" alt="logo de whatsapp"> +00 0000 0000 </span>
+        <span><img src="./assets/img/orden.png" alt="logo de compra"><a href="./pages/menu.html">Hace tu pedido</a></span>
+    </footer>
+    <script src="./javascript/index.js"></script>
+</body>
+</html>
